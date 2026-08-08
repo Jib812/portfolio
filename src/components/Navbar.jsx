@@ -18,6 +18,7 @@ const Navbar = () => {
     setDarkMode(!darkMode);
     // Implement theme switching logic here
     document.documentElement.classList.toggle("dark");
+
   };
 
   const navItems = [
@@ -25,7 +26,6 @@ const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Experience", href: "#experience" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           className="text-xl md:text-2xl font-bold tracking-wide bg-gradient-to-r from-teal-300 via-cyan-300 to-amber-300 bg-clip-text text-transparent"
           whileHover={{ scale: 1.05 }}
         >
-          CodeWithAnuj
+          CodeWithJibesh
         </motion.a>
 
         {/* Desktop Menu */}

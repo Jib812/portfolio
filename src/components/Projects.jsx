@@ -1,41 +1,33 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Imagegenerator from "../assets/AI image generator.png";
-import Intetrview from "../assets/Interviewsimulator.png";
-import Resumeanalyzer from "../assets/Ai resume.png";
+import Intetrview from "../assets/ai_interview.png";
+import Frontend from "../assets/frontend.png"
+
 
 const Projects = () => {
   const projects = [
     {
-      title: "Interview Simulator",
+      title: "AI Smart Interview",
       description:
-        "An interactive platform that simulates real-world interview scenarios, providing users with practice questions, feedback, and performance analytics.",
+        "AI-powered interview platform that analyzes resumes, generates personalized questions, evaluates answers, and provides scores and feedback.",
       image: Intetrview,
-      technologies: ["React", "Node.js", "TypeScript", "Express", "Tailwind CSS"],
-      liveLink: "https://6974acaa4ecbd7c354fba1ed--neon-cobbler-7ea05f.netlify.app/",
-      codeLink: "https://github.com/Anuj-gusain/Interview--Simulator",
+      technologies: [ "React" , "Tailwind CSS","JavaScript",  "Node.js", "Express"],
+      liveLink: "https://lazarev-ai-and-ml-prduct-design-agency.onrender.com",
+      codeLink: "https://github.com/Jib812/frontend-animated-project.git",
       featured: false,
     },
+    
     {
-      title: "AI Image Generator",
+      title: "Frontend animated project",
       description:
-        "A web application that generates unique images based on user prompts using AI technology.",
-      image: Imagegenerator,
-      technologies: ["React", "Node.js", "Tailwind CSS", "mongoDB", "express"],
-      liveLink: "#",
-      codeLink: "https://github.com/Anuj-gusain/AI-Image-Generator",
-      featured: true,
-    },
-    {
-      title: "AI resume analyzer",
-      description:
-        "An application that uses AI to analyze resumes and provide insights for job seekers.",
-      image: Resumeanalyzer,
-      technologies: ["React", "Tailwind CSS", "JavaScript", "express", "Node.js"],
-      liveLink: "#",
-      codeLink: "https://github.com/Anuj-gusain/AI-Resume-Analyzer",
-      featured: true,
-    },
+      " An animated frontend website inspired by LAZAREV., featuring modern UI, smooth animations, interactive components, and responsive design to showcase an AI & ML product design agency.",
+      image:Frontend,
+      technologies: [ "HTML","CSS","JavaScript"],
+      liveLink: "https://ai-smart-interview-wcio.onrender.com/",
+      codeLink: "https://github.com/Jib812/AI-Smart-Interview.git",
+      featured: false,
+    }
+
   ];
 
   const containerVariants = {

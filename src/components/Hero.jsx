@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import resume from "../assets/AnujGusainResume.pdf";
+import resume from "../assets/jibesh-resume.pdf";
 
 const Hero = () => {
   const containerVariants = {
@@ -49,7 +49,7 @@ const Hero = () => {
         >
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-teal-300 via-cyan-300 to-amber-300 bg-clip-text text-transparent">
-            Anuj Gusain
+            Jibesh Sinha
           </span>
         </motion.h1>
 
@@ -57,7 +57,7 @@ const Hero = () => {
           className="text-xl md:text-2xl lg:text-3xl text-slate-200 mb-8"
           variants={itemVariants}
         >
-          MERN Stack Developer | AI Enthusiast
+          MERN Stack Developer
         </motion.h2>
 
         <motion.p

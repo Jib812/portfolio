@@ -6,8 +6,9 @@ import linkedin from "../assets/linkedin.png";
 import twitter from "../assets/twitter.png";
 
 const Contact = () => {
-  const emailAddress = "gusainanuj26@gmail.com";
-  const emailUrl = `mailto:${emailAddress}`;
+
+const emailAddress = "jibeshsinha06@gmail.com";
+const emailUrl = `mailto:${emailAddress}`;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -34,14 +35,14 @@ const Contact = () => {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com/Anuj-gusain",
+      url: "https://github.com/Jib812",
       icon: github,
       iconClass: "invert",
       isImage: true,
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/anuj-gusain-015382272/",
+      url: "https://www.linkedin.com/in/jibesh-sinha/",
       icon: linkedin,
       isImage: true,
     },
@@ -120,7 +121,7 @@ const Contact = () => {
                   {emailAddress}
                 </a>
               </p>
-              <p className="text-slate-300">Phone: +918979295140</p>
+              {/* <p className="text-slate-300">Phone: +919475143611</p> */}
             </div>
 
             <div>

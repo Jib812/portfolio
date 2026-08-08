@@ -20,14 +20,14 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com/Anuj-gusain",
+      url: "https://github.com/Jib812",
       icon: github,
       iconClass: "invert",
       isImage: true,
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/anuj-gusain-015382272/",
+      url: "https://www.linkedin.com/in/jibesh-sinha/",
       icon: linkedin,
       isImage: true,
     },
@@ -39,7 +39,7 @@ const Footer = () => {
     },
     {
       name: "Twitter",
-      url: "https://x.com/AnujGus76627273?t=_H_4tHEkL-ar5xhMhtYzeg&s=09",
+      url: "https://x.com/JibeshSinh48324",
       icon: twitter,
       iconClass: "invert",
       isImage: true,
@@ -57,14 +57,14 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-teal-300 to-amber-300 bg-clip-text text-transparent mb-4">
-              Anuj Gusain
+              Jibesh Sinha
             </h3>
             <p className="text-slate-400 mb-6">
               Creating beautiful, functional, and user-focused digital
               experiences.
             </p>
             <p className="text-slate-500 text-sm">
-              © {currentYear} Anuj Gusain. All rights reserved.
+              © {currentYear} Jibesh Sinha. All rights reserved.
             </p>
           </motion.div>
 
