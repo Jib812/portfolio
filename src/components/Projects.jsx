@@ -12,8 +12,8 @@ const Projects = () => {
         "AI-powered interview platform that analyzes resumes, generates personalized questions, evaluates answers, and provides scores and feedback.",
       image: Intetrview,
       technologies: [ "React" , "Tailwind CSS","JavaScript",  "Node.js", "Express"],
-      liveLink: "https://lazarev-ai-and-ml-prduct-design-agency.onrender.com",
-      codeLink: "https://github.com/Jib812/frontend-animated-project.git",
+      liveLink: "https://ai-smart-interview-wcio.onrender.com/",
+      codeLink: " https://github.com/Jib812/AI-Smart-Interview.git",
       featured: false,
     },
     
@@ -23,8 +23,8 @@ const Projects = () => {
       " An animated frontend website inspired by LAZAREV., featuring modern UI, smooth animations, interactive components, and responsive design to showcase an AI & ML product design agency.",
       image:Frontend,
       technologies: [ "HTML","CSS","JavaScript"],
-      liveLink: "https://ai-smart-interview-wcio.onrender.com/",
-      codeLink: "https://github.com/Jib812/AI-Smart-Interview.git",
+      liveLink: "https://lazarev-ai-and-ml-prduct-design-agency.onrender.com",
+      codeLink: "https://github.com/Jib812/frontend-animated-project.git",
       featured: false,
     }
 
